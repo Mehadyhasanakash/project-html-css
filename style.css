@@ -42,6 +42,7 @@ nav ul li{
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-top: 50px;
 }
 .col-2{
     flex-basis: 50%;
@@ -62,8 +63,33 @@ nav ul li{
 .btn{
     display: inline-block;
     background-color: coral;
-    margin: 30px 0;
+    margin: 25px 0;
     padding: 8px 30px;
     color: white;
     border-radius: 30px;
+    transition: 0.5s;
+}
+.btn:hover{
+    background: rgb(233, 0, 0);
+}
+
+/* --------future-categories-------------- */
+.future-categories{
+    margin: 70px 0;
+
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.col-3 img{
+    width: 100%;
+}
+
+.smaill-container{
+    padding: 0 25px;
+    max-width: 1080px;
+    margin: auto;
 }
