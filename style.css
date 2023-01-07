@@ -88,8 +88,54 @@ nav ul li{
     width: 100%;
 }
 
-.smaill-container{
+.small-container{
     padding: 0 25px;
     max-width: 1080px;
     margin: auto;
+}
+
+.col-4{
+    flex-basis: 25%;
+    margin-bottom: 50px;
+    padding: 10px;
+    min-width: 200px;
+    transition: transform 0.5s;
+}
+
+.col-4 img{
+    width: 100%;
+}
+
+.title{
+    text-align: center;
+}
+
+.col-4:hover{
+    transform: translateY(-10px);
+}
+
+/* --------------offer--------- */
+
+.col-2 .offer-img{
+    padding: 50px;
+}
+small{
+    color: #555;
+}
+
+/* -------------testimonial------------------- */
+
+.testimonial{
+    margin-top: 100px;
+}
+
+.testimonial .col-3{
+    text-align: center;
+    padding: 30px 20px;
+
+}
+.testimonial .col-3 img{
+    margin-top: 20px;
+    width: 50px;
+    border-radius: 50%;
 }
