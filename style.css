@@ -4,11 +4,13 @@
     box-sizing: border-box;
 }
 
+
 .container{
     max-width: 1300px;
+    margin: auto;
     padding-left: 25px;
     padding-right: 25px;
-    margin: auto;
+    
 }
 
 .nabvar{
@@ -173,14 +175,15 @@ small{
 }
 /* --------------------------------footer------------------------------- */
 
-.footer{
+.footer-container{
     background: #000;
     color: #8a8a8a;
     padding: 60px 0 20px;
+   
 
 }
 
-.footer p{
+.footer-container p{
     color: #bbbbbb;
 }
 .footer h3{
@@ -188,7 +191,7 @@ small{
 }
 
 .footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
-    width: 200px;
+    min-width: 200px;
     margin-bottom: 20px;
 }
 
@@ -240,6 +243,63 @@ ul{
     margin-left: 20px;
     display: none;
 }
+
+
+/* --------------all product------------------------- */
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+select{
+    border: 1px solid rgb(255, 166, 0);
+    padding: 5px;
+}
+select:focus{
+    outline: none;
+}
+
+.page-btn{
+    margin: 0 auto 80px;
+}
+.page-btn span{
+    display: inline-block;
+    border: 1px solid rgb(255, 166, 0);
+    padding: 10px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+    
+}
+
+.page-btn span:hover{
+    background: rgb(255, 166, 0);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*---------------------------------------- media query for menu-------------------------- */
 
 @media only screen and (max-width: 800px){
