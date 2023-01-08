@@ -126,16 +126,48 @@ small{
 /* -------------testimonial------------------- */
 
 .testimonial{
-    margin-top: 100px;
+    margin: 100px 0;
+
 }
 
 .testimonial .col-3{
     text-align: center;
-    padding: 30px 20px;
+    padding: 50px 30px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s;
+
 
 }
 .testimonial .col-3 img{
     margin-top: 20px;
     width: 50px;
     border-radius: 50%;
+}
+.testimonial .col-3:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+
+}
+.col-3 p{
+    color: #555;
+}
+.ratings{
+    color: rgb(255, 158, 32);
+    margin-top: 20px;
+}
+
+/* ----------brands-------------------- */
+.brands{
+    margin: 100px auto;
+}
+.col-5{
+    width: 160px;
+}
+.col-5 img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.col-5 img:hover{
+    filter: grayscale(0%);
 }
