@@ -36,12 +36,27 @@
     </div>
     </div>
 
-    <!-- ---------------------Singla product ---------------------------- -->
+    <!-- ---------------------Singal product ---------------------------- -->
 
-    <div class="small-container">
+    <div class="small-container singal-product">
         <div class="row">
             <div class="col-2">
-                <img src="images/gallery-1.jpg" alt="">
+                <img id="BigImage" src="images/gallery-1.jpg" width="100%" >
+
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images/gallery-1.jpg" class="small-image" width="100%">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-2.jpg" class="small-image" width="100%">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-3.jpg" class="small-image" width="100%">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/gallery-4.jpg"  class="small-image" width="100%">
+                    </div>
+                </div>
 
             </div>
 
@@ -59,6 +74,9 @@
                 </select>
                 <input type="number" value="1">
                 <a class="btn" href=""> Add to Cart</a>
+
+                <h4>Product Details</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nam accusantium sed cum incidunt corporis quasi odit magni laboriosam harum non eaque accusamus ullam, a doloribus cumque doloremque veniam at enim ducimus minus in. Est, non. Illo aperiam corrupti accusantium.</p>
 
             </div>
 
@@ -218,6 +236,30 @@
                 }
             }
         </script>
+
+
+
+<!-- ---------------------------------------Js Singal Produc Image------------------------------- -->
+
+
+<script>
+    let BigImage = document.getElementById("BigImage");
+    let SmallImage = document.getElementsByClassName("small-image");
+
+    SmallImage[0].onclick = function(){
+        BigImage.src = SmallImage[0].src;
+    }
+    SmallImage[1].onclick = function(){
+        BigImage.src = SmallImage[1].src;
+    }
+    SmallImage[2].onclick = function(){
+        BigImage.src = SmallImage[2].src;
+    }
+    SmallImage[3].onclick = function(){
+        BigImage.src = SmallImage[3].src;
+    }
+   
+</script>
 </body>
 
 </html>

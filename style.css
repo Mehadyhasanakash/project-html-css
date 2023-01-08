@@ -280,9 +280,53 @@ select:focus{
     color: white;
 }
 
+/* --------------singal-product ------------------- */
+.singal-product{
+    margin-top: 80px;
+}
+
+.singal-product .col-2 img{
+    padding: 20px;
+}
+
+.singal-product .col-2 h4{
+    font-size: 20px;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #555;
+}
+
+.singal-product select{
+    display: block;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.singal-product input{
+    width: 50px;
+    height: 40px;
+    border: 1px solid rgb(255, 166, 0);
+    font-size: 20px;
+    padding-left: 15px;
+    margin-right: 20px;
+    
+}
+
+input:focus{
+    outline: none;
+}
 
 
+.small-img-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px;
+}
 
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
 
 
 
