@@ -383,4 +383,19 @@ input:focus{
     .col-2, .col-3, .col-4{
         flex-basis: 100% ;
     }
+
+    .singal-product .row{
+        text-align: left;
+        
+    }
+    .singal-product .col-2{
+        text-align: left;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    .singal-product h1{
+        font-size: 25px;
+        line-height: 40px;
+    }
 }
